@@ -1,0 +1,5 @@
+# Extra tools for testing and building the PDF report (not needed to run the app).
+-r requirements.txt
+pytest>=8,<9
+markdown>=3.5,<4
+pypdf>=4,<7

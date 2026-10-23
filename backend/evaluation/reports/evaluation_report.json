@@ -1,0 +1,784 @@
+{
+  "generated_on": "2026-10-24",
+  "knowledge_base_entries": 395,
+  "configured_threshold": 0.3,
+  "chosen_threshold": 0.3,
+  "calibration_sweep": [
+    {
+      "threshold": 0.1,
+      "overall_accuracy": 0.8,
+      "topic_accuracy_in_domain": 0.893,
+      "entry_accuracy_in_domain": 0.714,
+      "in_domain_precision": 1.0,
+      "in_domain_recall": 1.0,
+      "in_domain_f1": 1.0,
+      "fallback_precision": 1.0,
+      "fallback_recall": 1.0,
+      "confidently_wrong": 8
+    },
+    {
+      "threshold": 0.15,
+      "overall_accuracy": 0.8,
+      "topic_accuracy_in_domain": 0.893,
+      "entry_accuracy_in_domain": 0.714,
+      "in_domain_precision": 1.0,
+      "in_domain_recall": 1.0,
+      "in_domain_f1": 1.0,
+      "fallback_precision": 1.0,
+      "fallback_recall": 1.0,
+      "confidently_wrong": 8
+    },
+    {
+      "threshold": 0.2,
+      "overall_accuracy": 0.8,
+      "topic_accuracy_in_domain": 0.893,
+      "entry_accuracy_in_domain": 0.714,
+      "in_domain_precision": 1.0,
+      "in_domain_recall": 1.0,
+      "in_domain_f1": 1.0,
+      "fallback_precision": 1.0,
+      "fallback_recall": 1.0,
+      "confidently_wrong": 8
+    },
+    {
+      "threshold": 0.25,
+      "overall_accuracy": 0.8,
+      "topic_accuracy_in_domain": 0.893,
+      "entry_accuracy_in_domain": 0.714,
+      "in_domain_precision": 1.0,
+      "in_domain_recall": 1.0,
+      "in_domain_f1": 1.0,
+      "fallback_precision": 1.0,
+      "fallback_recall": 1.0,
+      "confidently_wrong": 8
+    },
+    {
+      "threshold": 0.3,
+      "overall_accuracy": 0.8,
+      "topic_accuracy_in_domain": 0.893,
+      "entry_accuracy_in_domain": 0.714,
+      "in_domain_precision": 1.0,
+      "in_domain_recall": 1.0,
+      "in_domain_f1": 1.0,
+      "fallback_precision": 1.0,
+      "fallback_recall": 1.0,
+      "confidently_wrong": 8
+    },
+    {
+      "threshold": 0.35,
+      "overall_accuracy": 0.725,
+      "topic_accuracy_in_domain": 0.786,
+      "entry_accuracy_in_domain": 0.607,
+      "in_domain_precision": 1.0,
+      "in_domain_recall": 0.893,
+      "in_domain_f1": 0.943,
+      "fallback_precision": 0.8,
+      "fallback_recall": 1.0,
+      "confidently_wrong": 8
+    },
+    {
+      "threshold": 0.4,
+      "overall_accuracy": 0.7,
+      "topic_accuracy_in_domain": 0.75,
+      "entry_accuracy_in_domain": 0.571,
+      "in_domain_precision": 1.0,
+      "in_domain_recall": 0.786,
+      "in_domain_f1": 0.88,
+      "fallback_precision": 0.667,
+      "fallback_recall": 1.0,
+      "confidently_wrong": 6
+    }
+  ],
+  "test_sweep_for_information": [
+    {
+      "threshold": 0.1,
+      "overall_accuracy": 0.85,
+      "topic_accuracy_in_domain": 0.893,
+      "entry_accuracy_in_domain": 0.786,
+      "in_domain_precision": 1.0,
+      "in_domain_recall": 1.0,
+      "in_domain_f1": 1.0,
+      "fallback_precision": 1.0,
+      "fallback_recall": 1.0,
+      "confidently_wrong": 6
+    },
+    {
+      "threshold": 0.15,
+      "overall_accuracy": 0.85,
+      "topic_accuracy_in_domain": 0.893,
+      "entry_accuracy_in_domain": 0.786,
+      "in_domain_precision": 1.0,
+      "in_domain_recall": 1.0,
+      "in_domain_f1": 1.0,
+      "fallback_precision": 1.0,
+      "fallback_recall": 1.0,
+      "confidently_wrong": 6
+    },
+    {
+      "threshold": 0.2,
+      "overall_accuracy": 0.85,
+      "topic_accuracy_in_domain": 0.893,
+      "entry_accuracy_in_domain": 0.786,
+      "in_domain_precision": 1.0,
+      "in_domain_recall": 1.0,
+      "in_domain_f1": 1.0,
+      "fallback_precision": 1.0,
+      "fallback_recall": 1.0,
+      "confidently_wrong": 6
+    },
+    {
+      "threshold": 0.25,
+      "overall_accuracy": 0.85,
+      "topic_accuracy_in_domain": 0.893,
+      "entry_accuracy_in_domain": 0.786,
+      "in_domain_precision": 1.0,
+      "in_domain_recall": 1.0,
+      "in_domain_f1": 1.0,
+      "fallback_precision": 1.0,
+      "fallback_recall": 1.0,
+      "confidently_wrong": 6
+    },
+    {
+      "threshold": 0.3,
+      "overall_accuracy": 0.85,
+      "topic_accuracy_in_domain": 0.857,
+      "entry_accuracy_in_domain": 0.786,
+      "in_domain_precision": 1.0,
+      "in_domain_recall": 0.964,
+      "in_domain_f1": 0.982,
+      "fallback_precision": 0.923,
+      "fallback_recall": 1.0,
+      "confidently_wrong": 5
+    },
+    {
+      "threshold": 0.35,
+      "overall_accuracy": 0.85,
+      "topic_accuracy_in_domain": 0.857,
+      "entry_accuracy_in_domain": 0.786,
+      "in_domain_precision": 1.0,
+      "in_domain_recall": 0.964,
+      "in_domain_f1": 0.982,
+      "fallback_precision": 0.923,
+      "fallback_recall": 1.0,
+      "confidently_wrong": 5
+    },
+    {
+      "threshold": 0.4,
+      "overall_accuracy": 0.8,
+      "topic_accuracy_in_domain": 0.786,
+      "entry_accuracy_in_domain": 0.714,
+      "in_domain_precision": 1.0,
+      "in_domain_recall": 0.893,
+      "in_domain_f1": 0.943,
+      "fallback_precision": 0.8,
+      "fallback_recall": 1.0,
+      "confidently_wrong": 5
+    }
+  ],
+  "test_result": {
+    "threshold": 0.3,
+    "counts": {
+      "total": 40,
+      "in_domain": 28,
+      "out_of_domain": 12
+    },
+    "metrics": {
+      "overall_accuracy": 0.85,
+      "topic_accuracy_in_domain": 0.857,
+      "entry_accuracy_in_domain": 0.786,
+      "in_domain_precision": 1.0,
+      "in_domain_recall": 0.964,
+      "in_domain_f1": 0.982,
+      "fallback_precision": 0.923,
+      "fallback_recall": 1.0,
+      "confidently_wrong": 5
+    },
+    "rows": [
+      {
+        "query": "why do my plant leaves look yellow and droopy",
+        "expected": "answer",
+        "expected_ids": [
+          "leaf_yellow",
+          "leaf_drooping"
+        ],
+        "answered": true,
+        "matched_id": "leaf_yellow",
+        "topic": "leaf_problems",
+        "similarity": 0.438,
+        "fallback_reason": null,
+        "entry_correct": true,
+        "topic_correct": true,
+        "correct": true
+      },
+      {
+        "query": "how do i know my plant is thirsty",
+        "expected": "answer",
+        "expected_ids": [
+          "water_check_need"
+        ],
+        "answered": true,
+        "matched_id": "water_check_need",
+        "topic": "watering",
+        "similarity": 1.0,
+        "fallback_reason": null,
+        "entry_correct": true,
+        "topic_correct": true,
+        "correct": true
+      },
+      {
+        "query": "i water every day and the leaves are turning yellow",
+        "expected": "answer",
+        "expected_ids": [
+          "water_overwatering_signs",
+          "leaf_yellow"
+        ],
+        "answered": true,
+        "matched_id": "leaf_yellow",
+        "topic": "leaf_problems",
+        "similarity": 0.801,
+        "fallback_reason": null,
+        "entry_correct": true,
+        "topic_correct": true,
+        "correct": true
+      },
+      {
+        "query": "dry crispy leaves and the soil is pulling away from the pot",
+        "expected": "answer",
+        "expected_ids": [
+          "water_underwatering_signs",
+          "leaf_brown_tips"
+        ],
+        "answered": true,
+        "matched_id": "water_underwatering_signs",
+        "topic": "watering",
+        "similarity": 0.392,
+        "fallback_reason": null,
+        "entry_correct": true,
+        "topic_correct": true,
+        "correct": true
+      },
+      {
+        "query": "small black bugs flying around my plants",
+        "expected": "answer",
+        "expected_ids": [
+          "pest_fungus_gnats"
+        ],
+        "answered": false,
+        "matched_id": null,
+        "topic": null,
+        "similarity": 0.274,
+        "fallback_reason": "low_similarity",
+        "entry_correct": false,
+        "topic_correct": false,
+        "correct": false
+      },
+      {
+        "query": "best soil for a cactus",
+        "expected": "answer",
+        "expected_ids": [
+          "soil_best_mix",
+          "soil_well_draining",
+          "plant_succulents"
+        ],
+        "answered": true,
+        "matched_id": "soil_best_mix",
+        "topic": "soil_pots",
+        "similarity": 0.446,
+        "fallback_reason": null,
+        "entry_correct": true,
+        "topic_correct": true,
+        "correct": true
+      },
+      {
+        "query": "is snake plant poisonous for cats",
+        "expected": "answer",
+        "expected_ids": [
+          "kg_snake_plant_pets"
+        ],
+        "answered": true,
+        "matched_id": "kg_snake_plant_pets",
+        "topic": "pet_safety",
+        "similarity": 1.0,
+        "fallback_reason": null,
+        "entry_correct": true,
+        "topic_correct": true,
+        "correct": true
+      },
+      {
+        "query": "how often should a peace lily be watered",
+        "expected": "answer",
+        "expected_ids": [
+          "kg_peace_lily_water"
+        ],
+        "answered": true,
+        "matched_id": "kg_peace_lily_water",
+        "topic": "plant_profiles",
+        "similarity": 0.791,
+        "fallback_reason": null,
+        "entry_correct": true,
+        "topic_correct": true,
+        "correct": true
+      },
+      {
+        "query": "where should i keep my rubber plant",
+        "expected": "answer",
+        "expected_ids": [
+          "kg_rubber_tree_light"
+        ],
+        "answered": true,
+        "matched_id": "kg_rubber_tree_water",
+        "topic": "plant_profiles",
+        "similarity": 0.739,
+        "fallback_reason": null,
+        "entry_correct": false,
+        "topic_correct": true,
+        "correct": false
+      },
+      {
+        "query": "can plants get sunburn",
+        "expected": "answer",
+        "expected_ids": [
+          "light_sunburn"
+        ],
+        "answered": true,
+        "matched_id": "light_sunburn",
+        "topic": "light_environment",
+        "similarity": 1.0,
+        "fallback_reason": null,
+        "entry_correct": true,
+        "topic_correct": true,
+        "correct": true
+      },
+      {
+        "query": "is it necessary to fertilize indoor plants",
+        "expected": "answer",
+        "expected_ids": [
+          "fert_when"
+        ],
+        "answered": true,
+        "matched_id": "fert_when",
+        "topic": "fertilizer",
+        "similarity": 0.566,
+        "fallback_reason": null,
+        "entry_correct": true,
+        "topic_correct": true,
+        "correct": true
+      },
+      {
+        "query": "how do i know if my plant needs repotting",
+        "expected": "answer",
+        "expected_ids": [
+          "maint_repot_when",
+          "maint_root_bound"
+        ],
+        "answered": true,
+        "matched_id": "maint_repot_when",
+        "topic": "pests_maintenance",
+        "similarity": 0.557,
+        "fallback_reason": null,
+        "entry_correct": true,
+        "topic_correct": true,
+        "correct": true
+      },
+      {
+        "query": "care instructions for a prayer plant",
+        "expected": "answer",
+        "expected_ids": [
+          "kg_prayer_plant_care"
+        ],
+        "answered": true,
+        "matched_id": "kg_prayer_plant_care",
+        "topic": "plant_profiles",
+        "similarity": 0.767,
+        "fallback_reason": null,
+        "entry_correct": true,
+        "topic_correct": true,
+        "correct": true
+      },
+      {
+        "query": "low light plants for my office",
+        "expected": "answer",
+        "expected_ids": [
+          "kg_list_low_light"
+        ],
+        "answered": true,
+        "matched_id": "light_artificial",
+        "topic": "light_environment",
+        "similarity": 0.422,
+        "fallback_reason": null,
+        "entry_correct": false,
+        "topic_correct": false,
+        "correct": false
+      },
+      {
+        "query": "how do i treat bugs on my plant naturally",
+        "expected": "answer",
+        "expected_ids": [
+          "pest_general_treatment"
+        ],
+        "answered": true,
+        "matched_id": "pest_general_treatment",
+        "topic": "pests_maintenance",
+        "similarity": 0.582,
+        "fallback_reason": null,
+        "entry_correct": true,
+        "topic_correct": true,
+        "correct": true
+      },
+      {
+        "query": "what should i do with a plant i just bought",
+        "expected": "answer",
+        "expected_ids": [
+          "gen_new_plant"
+        ],
+        "answered": true,
+        "matched_id": "gen_new_plant",
+        "topic": "general_care",
+        "similarity": 0.396,
+        "fallback_reason": null,
+        "entry_correct": true,
+        "topic_correct": true,
+        "correct": true
+      },
+      {
+        "query": "pet friendly indoor plants",
+        "expected": "answer",
+        "expected_ids": [
+          "kg_list_pet_safe"
+        ],
+        "answered": true,
+        "matched_id": "rec_beginner_plants",
+        "topic": "plant_recommendations",
+        "similarity": 0.686,
+        "fallback_reason": null,
+        "entry_correct": false,
+        "topic_correct": false,
+        "correct": false
+      },
+      {
+        "query": "black spots appearing on the leaves",
+        "expected": "answer",
+        "expected_ids": [
+          "leaf_spots"
+        ],
+        "answered": true,
+        "matched_id": "leaf_spots",
+        "topic": "leaf_problems",
+        "similarity": 0.502,
+        "fallback_reason": null,
+        "entry_correct": true,
+        "topic_correct": true,
+        "correct": true
+      },
+      {
+        "query": "my plant isnt growing at all",
+        "expected": "answer",
+        "expected_ids": [
+          "maint_not_growing"
+        ],
+        "answered": true,
+        "matched_id": "maint_not_growing",
+        "topic": "pests_maintenance",
+        "similarity": 1.0,
+        "fallback_reason": null,
+        "entry_correct": true,
+        "topic_correct": true,
+        "correct": true
+      },
+      {
+        "query": "the air in my room is very dry, is that bad for plants",
+        "expected": "answer",
+        "expected_ids": [
+          "light_humidity",
+          "leaf_brown_tips"
+        ],
+        "answered": true,
+        "matched_id": "light_humidity",
+        "topic": "light_environment",
+        "similarity": 0.627,
+        "fallback_reason": null,
+        "entry_correct": true,
+        "topic_correct": true,
+        "correct": true
+      },
+      {
+        "query": "how much light does a zz need",
+        "expected": "answer",
+        "expected_ids": [
+          "kg_zz_plant_light"
+        ],
+        "answered": true,
+        "matched_id": "kg_zz_plant_light",
+        "topic": "plant_profiles",
+        "similarity": 0.833,
+        "fallback_reason": null,
+        "entry_correct": true,
+        "topic_correct": true,
+        "correct": true
+      },
+      {
+        "query": "plants that can handle lots of sun",
+        "expected": "answer",
+        "expected_ids": [
+          "kg_list_direct_sun"
+        ],
+        "answered": true,
+        "matched_id": "kg_list_direct_sun",
+        "topic": "plant_recommendations",
+        "similarity": 0.429,
+        "fallback_reason": null,
+        "entry_correct": true,
+        "topic_correct": true,
+        "correct": true
+      },
+      {
+        "query": "how to clean the leaves of my plants",
+        "expected": "answer",
+        "expected_ids": [
+          "gen_clean_leaves"
+        ],
+        "answered": true,
+        "matched_id": "gen_clean_leaves",
+        "topic": "general_care",
+        "similarity": 0.449,
+        "fallback_reason": null,
+        "entry_correct": true,
+        "topic_correct": true,
+        "correct": true
+      },
+      {
+        "query": "pothos, is it toxic to dogs",
+        "expected": "answer",
+        "expected_ids": [
+          "kg_golden_pothos_pets"
+        ],
+        "answered": true,
+        "matched_id": "kg_golden_pothos_pets",
+        "topic": "pet_safety",
+        "similarity": 0.779,
+        "fallback_reason": null,
+        "entry_correct": true,
+        "topic_correct": true,
+        "correct": true
+      },
+      {
+        "query": "how often to water a chinese money plant",
+        "expected": "answer",
+        "expected_ids": [
+          "kg_chinese_money_plant_water"
+        ],
+        "answered": true,
+        "matched_id": "kg_chinese_money_plant_water",
+        "topic": "plant_profiles",
+        "similarity": 1.0,
+        "fallback_reason": null,
+        "entry_correct": true,
+        "topic_correct": true,
+        "correct": true
+      },
+      {
+        "query": "why won't my christmas cactus flower",
+        "expected": "answer",
+        "expected_ids": [
+          "gen_flowering",
+          "kg_christmas_cactus_care"
+        ],
+        "answered": true,
+        "matched_id": "kg_christmas_cactus_water",
+        "topic": "plant_profiles",
+        "similarity": 0.564,
+        "fallback_reason": null,
+        "entry_correct": false,
+        "topic_correct": true,
+        "correct": false
+      },
+      {
+        "query": "what is the easiest plant to keep alive",
+        "expected": "answer",
+        "expected_ids": [
+          "rec_beginner_plants",
+          "kg_list_low_water"
+        ],
+        "answered": true,
+        "matched_id": "gen_basic_rules",
+        "topic": "general_care",
+        "similarity": 0.411,
+        "fallback_reason": null,
+        "entry_correct": false,
+        "topic_correct": false,
+        "correct": false
+      },
+      {
+        "query": "the leaves are curling up",
+        "expected": "answer",
+        "expected_ids": [
+          "leaf_curling"
+        ],
+        "answered": true,
+        "matched_id": "leaf_curling",
+        "topic": "leaf_problems",
+        "similarity": 0.836,
+        "fallback_reason": null,
+        "entry_correct": true,
+        "topic_correct": true,
+        "correct": true
+      },
+      {
+        "query": "who won the world cup in 2022",
+        "expected": "fallback",
+        "expected_ids": [],
+        "answered": false,
+        "matched_id": null,
+        "topic": null,
+        "similarity": 0.466,
+        "fallback_reason": "out_of_domain",
+        "entry_correct": null,
+        "topic_correct": null,
+        "correct": true
+      },
+      {
+        "query": "explain blockchain technology",
+        "expected": "fallback",
+        "expected_ids": [],
+        "answered": false,
+        "matched_id": null,
+        "topic": null,
+        "similarity": 0.0,
+        "fallback_reason": "out_of_domain",
+        "entry_correct": null,
+        "topic_correct": null,
+        "correct": true
+      },
+      {
+        "query": "what is the capital of japan",
+        "expected": "fallback",
+        "expected_ids": [],
+        "answered": false,
+        "matched_id": null,
+        "topic": null,
+        "similarity": 0.0,
+        "fallback_reason": "out_of_domain",
+        "entry_correct": null,
+        "topic_correct": null,
+        "correct": true
+      },
+      {
+        "query": "write a story about dragons",
+        "expected": "fallback",
+        "expected_ids": [],
+        "answered": false,
+        "matched_id": null,
+        "topic": null,
+        "similarity": 0.0,
+        "fallback_reason": "out_of_domain",
+        "entry_correct": null,
+        "topic_correct": null,
+        "correct": true
+      },
+      {
+        "query": "how to lose weight fast",
+        "expected": "fallback",
+        "expected_ids": [],
+        "answered": false,
+        "matched_id": null,
+        "topic": null,
+        "similarity": 0.509,
+        "fallback_reason": "out_of_domain",
+        "entry_correct": null,
+        "topic_correct": null,
+        "correct": true
+      },
+      {
+        "query": "what is 25 times 4",
+        "expected": "fallback",
+        "expected_ids": [],
+        "answered": false,
+        "matched_id": null,
+        "topic": null,
+        "similarity": 0.415,
+        "fallback_reason": "out_of_domain",
+        "entry_correct": null,
+        "topic_correct": null,
+        "correct": true
+      },
+      {
+        "query": "translate hello to french",
+        "expected": "fallback",
+        "expected_ids": [],
+        "answered": false,
+        "matched_id": null,
+        "topic": null,
+        "similarity": 0.0,
+        "fallback_reason": "out_of_domain",
+        "entry_correct": null,
+        "topic_correct": null,
+        "correct": true
+      },
+      {
+        "query": "latest iphone price",
+        "expected": "fallback",
+        "expected_ids": [],
+        "answered": false,
+        "matched_id": null,
+        "topic": null,
+        "similarity": 0.0,
+        "fallback_reason": "out_of_domain",
+        "entry_correct": null,
+        "topic_correct": null,
+        "correct": true
+      },
+      {
+        "query": "manufacturing plant jobs near me",
+        "expected": "fallback",
+        "expected_ids": [],
+        "answered": false,
+        "matched_id": null,
+        "topic": null,
+        "similarity": 0.32,
+        "fallback_reason": "out_of_domain",
+        "entry_correct": null,
+        "topic_correct": null,
+        "correct": true
+      },
+      {
+        "query": "which plant based protein powder is best",
+        "expected": "fallback",
+        "expected_ids": [],
+        "answered": false,
+        "matched_id": null,
+        "topic": null,
+        "similarity": 0.448,
+        "fallback_reason": "out_of_domain",
+        "entry_correct": null,
+        "topic_correct": null,
+        "correct": true
+      },
+      {
+        "query": "book a train ticket to mumbai",
+        "expected": "fallback",
+        "expected_ids": [],
+        "answered": false,
+        "matched_id": null,
+        "topic": null,
+        "similarity": 0.0,
+        "fallback_reason": "out_of_domain",
+        "entry_correct": null,
+        "topic_correct": null,
+        "correct": true
+      },
+      {
+        "query": "who wrote harry potter",
+        "expected": "fallback",
+        "expected_ids": [],
+        "answered": false,
+        "matched_id": null,
+        "topic": null,
+        "similarity": 0.0,
+        "fallback_reason": "out_of_domain",
+        "entry_correct": null,
+        "topic_correct": null,
+        "correct": true
+      }
+    ]
+  }
+}

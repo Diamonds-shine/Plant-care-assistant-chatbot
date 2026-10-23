@@ -1,0 +1,686 @@
+[
+  {
+    "id": "water_frequency",
+    "topic": "watering",
+    "question": "How often should I water my indoor plants?",
+    "alternatives": [
+      "When should I water my indoor plants?",
+      "How many times a week should I water plants?",
+      "What is a good watering schedule for indoor plants?",
+      "How frequently do indoor plants need water?"
+    ],
+    "keywords": ["watering frequency", "watering schedule", "how often water", "water plants"],
+    "answer": "There is no fixed schedule that suits every plant. Check the soil instead of the calendar: most leafy houseplants want water when the top 2-5 cm of soil feels dry, while succulents and cacti prefer the soil to dry out almost completely. Plants need water more often in warm, bright summer months and much less in winter. When you do water, water thoroughly until it drains from the bottom, then empty the saucer.",
+    "source": "curated",
+    "related": ["water_check_need", "water_overwatering_signs", "water_time_of_day"]
+  },
+  {
+    "id": "water_check_need",
+    "topic": "watering",
+    "question": "How can I tell if my plant needs water?",
+    "alternatives": [
+      "How do I know when my plant is thirsty?",
+      "How to check if soil is dry enough to water?",
+      "Is my plant dry or does it need water?",
+      "How do I test soil moisture?"
+    ],
+    "keywords": ["soil moisture", "dry soil", "finger test", "thirsty plant", "check soil"],
+    "answer": "Push a finger 2-5 cm into the soil: if it feels dry at that depth, most houseplants are ready for water. You can also lift the pot, because a dry pot feels noticeably lighter than a freshly watered one. A wooden chopstick pushed into the soil works too; if it comes out clean and dry, it is time to water. Slightly soft or drooping leaves can be a sign of thirst, but check the soil first because overwatered plants droop as well.",
+    "source": "curated",
+    "related": ["water_frequency", "water_underwatering_signs"]
+  },
+  {
+    "id": "water_overwatering_signs",
+    "topic": "watering",
+    "question": "What are the signs of overwatering?",
+    "alternatives": [
+      "How do I know if I am overwatering my plant?",
+      "Did I give my plant too much water?",
+      "What happens when a plant is overwatered?",
+      "My plant has too much water, what are the symptoms?"
+    ],
+    "keywords": ["overwatering", "overwatered", "too much water", "soggy soil", "mushy stems"],
+    "answer": "Common signs of overwatering are yellowing lower leaves, soil that stays wet for many days, wilting even though the soil is moist, mushy or dark stems, a sour smell from the soil, and fungus gnats. Let the soil dry out more between waterings and make sure the pot has drainage holes. If the stems or roots are soft and brown, check the roots for rot.",
+    "source": "curated",
+    "related": ["water_root_rot", "water_soil_always_wet", "leaf_yellow"]
+  },
+  {
+    "id": "water_underwatering_signs",
+    "topic": "watering",
+    "question": "What are the signs of underwatering?",
+    "alternatives": [
+      "How do I know if my plant is not getting enough water?",
+      "Is my plant too dry?",
+      "What happens if I forget to water my plant?",
+      "My plant is not getting enough water, what are the symptoms?"
+    ],
+    "keywords": ["underwatering", "underwatered", "not enough water", "dry soil", "crispy leaves"],
+    "answer": "An underwatered plant often has drooping, limp leaves, crispy brown edges, curled leaves, and soil that is dry and pulling away from the side of the pot. Give it a thorough soak: water slowly until it drains out of the bottom, or stand the pot in a bowl of water for 15-30 minutes and then let it drain. Most plants perk up within a day if the roots are healthy.",
+    "source": "curated",
+    "related": ["water_check_need", "leaf_brown_tips"]
+  },
+  {
+    "id": "water_soil_always_wet",
+    "topic": "watering",
+    "question": "Why is the soil in my pot always wet?",
+    "alternatives": [
+      "My soil never dries out",
+      "Why does my potting soil stay soggy?",
+      "The soil is still wet days after watering",
+      "Why is my soil not drying?",
+      "Why is my pot not draining?",
+      "Water is not draining out of the pot"
+    ],
+    "keywords": ["always wet", "soggy soil", "not drying", "wet soil", "poor drainage", "not draining"],
+    "answer": "Soil that never dries is usually caused by a pot without drainage holes, a pot that is much bigger than the root ball, heavy compacted soil, low light, or cold temperatures. Water only when the top layer is dry, move the plant to brighter light if possible, and repot into a free-draining mix in a pot with holes. Constantly wet soil can lead to root rot, so it is worth fixing quickly.",
+    "source": "curated",
+    "related": ["water_root_rot", "soil_drainage_holes", "soil_pot_size"]
+  },
+  {
+    "id": "water_time_of_day",
+    "topic": "watering",
+    "question": "Should I water plants in the morning or evening?",
+    "alternatives": [
+      "What is the best time of day to water plants?",
+      "Is it okay to water plants at night?",
+      "When during the day should I water?"
+    ],
+    "keywords": ["morning", "evening", "night", "time of day", "best time to water"],
+    "answer": "Morning is usually the best time to water, because the plant has water available during the warmest part of the day and any splashes on the leaves dry quickly. Evening watering is fine for indoor plants as long as the leaves are not left wet overnight, which can encourage fungal spots. For houseplants, checking the soil matters far more than the exact time of day.",
+    "source": "curated",
+    "related": ["water_frequency"]
+  },
+  {
+    "id": "water_root_rot",
+    "topic": "watering",
+    "question": "How can I prevent root rot?",
+    "alternatives": [
+      "What is root rot and how do I fix it?",
+      "My roots are brown and mushy",
+      "How do I save a plant with rotting roots?",
+      "How to stop roots from rotting?"
+    ],
+    "keywords": ["root rot", "rotting roots", "mushy roots", "brown roots", "smelly soil"],
+    "answer": "Root rot happens when roots sit in wet soil for too long and run out of oxygen. Prevent it by using pots with drainage holes, a free-draining potting mix, and watering only when the top of the soil has dried. If you suspect rot, slide the plant out: healthy roots are firm and white or tan, rotten ones are brown, mushy and smelly. Trim the rotten roots with clean scissors and repot into fresh, dry-ish mix; if most roots are gone, take healthy cuttings to propagate instead.",
+    "source": "curated",
+    "related": ["water_overwatering_signs", "soil_drainage_holes", "gen_propagation"]
+  },
+  {
+    "id": "leaf_yellow",
+    "topic": "leaf_problems",
+    "question": "Why are my plant's leaves turning yellow?",
+    "alternatives": [
+      "My leaves are becoming yellow",
+      "What causes yellow leaves on houseplants?",
+      "Why is my plant getting yellow leaves?",
+      "Leaves turning yellow and falling off"
+    ],
+    "keywords": ["yellow leaves", "yellowing", "leaves turning yellow", "chlorosis"],
+    "answer": "Yellow leaves have several possible causes, so check them one at a time:\n- Overwatering (most common): soil stays wet, lower leaves go yellow and soft.\n- Underwatering: leaves yellow and go crispy, soil is bone dry.\n- Too little light: older leaves yellow and growth becomes leggy.\n- Nutrient shortage: pale yellow new growth after months without fertilizer.\n- Natural ageing: one or two old bottom leaves yellowing now and then is normal.\nStart by checking the soil moisture and drainage.",
+    "source": "curated",
+    "related": ["water_overwatering_signs", "leaf_pale", "fert_deficiency"]
+  },
+  {
+    "id": "leaf_brown_tips",
+    "topic": "leaf_problems",
+    "question": "Why are the tips of my leaves turning brown?",
+    "alternatives": [
+      "What causes brown leaf tips?",
+      "My plant has brown crispy edges",
+      "Why do leaf edges go brown and dry?",
+      "Brown tips on leaves"
+    ],
+    "keywords": ["brown tips", "brown edges", "crispy leaves", "leaf tips", "dry tips"],
+    "answer": "Brown, crispy tips are usually caused by dry air (low humidity), uneven watering where the soil dries out completely, or a build-up of salts from fertilizer or hard tap water. Water more consistently, raise humidity by grouping plants together or using a pebble tray, and flush the soil with plenty of water every few months. Brown tips will not turn green again, but you can trim them off with clean scissors.",
+    "source": "curated",
+    "related": ["light_humidity", "fert_too_much", "water_underwatering_signs"]
+  },
+  {
+    "id": "leaf_curling",
+    "topic": "leaf_problems",
+    "question": "Why are my plant's leaves curling?",
+    "alternatives": [
+      "What makes leaves curl up?",
+      "My leaves are curling inwards",
+      "Why are leaves rolling or cupping?"
+    ],
+    "keywords": ["curling leaves", "leaf curl", "curled", "cupping leaves"],
+    "answer": "Leaves often curl to save water, so the most common causes are thirst, very dry air, or too much heat or direct sun. Pests such as spider mites, aphids or thrips can also make new leaves curl or distort, so look closely under the leaves. Check the soil moisture first, move the plant away from heaters or hot windows, and inspect for pests.",
+    "source": "curated",
+    "related": ["water_underwatering_signs", "pest_spider_mites", "light_sunburn"]
+  },
+  {
+    "id": "leaf_drooping",
+    "topic": "leaf_problems",
+    "question": "Why are my plant's leaves drooping?",
+    "alternatives": [
+      "My plant looks droopy and sad",
+      "Why is my plant wilting?",
+      "Leaves hanging down and limp",
+      "Why is my plant drooping after watering?"
+    ],
+    "keywords": ["drooping", "droopy", "wilting", "limp leaves", "sagging"],
+    "answer": "Drooping happens when the plant cannot get enough water into its leaves. That can mean the soil is too dry, but it can also mean the soil is too wet and the roots are damaged. Feel the soil: if it is dry, water thoroughly; if it is wet, let it dry out and check for root rot. Recent repotting, a move to a new spot, or sudden cold can also cause temporary drooping.",
+    "source": "curated",
+    "related": ["water_check_need", "water_root_rot", "light_wilting_moist_soil"]
+  },
+  {
+    "id": "leaf_falling",
+    "topic": "leaf_problems",
+    "question": "Why are leaves falling off my plant?",
+    "alternatives": [
+      "My plant is dropping leaves",
+      "Why is my plant losing leaves?",
+      "Leaves keep falling off suddenly"
+    ],
+    "keywords": ["leaf drop", "dropping leaves", "losing leaves", "leaves falling"],
+    "answer": "Sudden leaf drop is often a reaction to change: a new location, cold draughts, heaters, or a big change in light. Over- and underwatering cause leaf drop too, and some plants such as the weeping fig are well known for dropping leaves when moved. Keep the plant in one stable, bright spot, avoid draughts, and water only when the top of the soil is dry. Losing an occasional old leaf at the bottom is normal.",
+    "source": "curated",
+    "related": ["leaf_yellow", "water_overwatering_signs", "gen_new_plant"]
+  },
+  {
+    "id": "leaf_spots",
+    "topic": "leaf_problems",
+    "question": "Why are there brown or black spots on my plant's leaves?",
+    "alternatives": [
+      "What causes black spots on leaves?",
+      "My leaves have brown spots",
+      "Dark patches appearing on leaves",
+      "Is leaf spot a disease?"
+    ],
+    "keywords": ["brown spots", "black spots", "leaf spot", "fungal spots", "dark patches"],
+    "answer": "Spots can come from fungal or bacterial leaf spot (often with a yellow ring, made worse by wet leaves and poor airflow), sunburn (pale or brown dry patches on the side facing the window), cold damage, or overwatering. Remove badly affected leaves, water the soil rather than the leaves, improve air circulation, and isolate the plant from others. Spots alone cannot confirm a specific disease; if they spread quickly, ask a local nursery or plant clinic to take a look.",
+    "source": "curated",
+    "related": ["light_sunburn", "water_overwatering_signs"]
+  },
+  {
+    "id": "leaf_pale",
+    "topic": "leaf_problems",
+    "question": "Why are my plant's leaves pale or losing colour?",
+    "alternatives": [
+      "My leaves look washed out",
+      "Why is my plant fading?",
+      "Leaves are pale green",
+      "What should I do about pale leaves?"
+    ],
+    "keywords": ["pale leaves", "faded", "washed out", "light green", "losing color"],
+    "answer": "Pale or washed-out leaves usually mean the plant is getting too little light or too few nutrients, or occasionally too much harsh direct sun. Move it to a brighter spot with indirect light, and if you have not fed it for a few months during the growing season, give it a diluted balanced fertilizer. Variegated plants can also lose their patterns in low light.",
+    "source": "curated",
+    "related": ["light_indoor_needs", "fert_deficiency", "leaf_yellow"]
+  },
+  {
+    "id": "light_indoor_needs",
+    "topic": "light_environment",
+    "question": "How much sunlight do indoor plants need?",
+    "alternatives": [
+      "What kind of light do houseplants need?",
+      "What does bright indirect light mean?",
+      "Where should I place my plant for light?",
+      "Do indoor plants need direct sun?"
+    ],
+    "keywords": ["sunlight", "bright indirect light", "light requirements", "window", "placement"],
+    "answer": "Most common houseplants grow best in bright, indirect light: near a window where they can see a lot of sky but are not in hard midday sun all day. Cacti, succulents and many flowering plants like some direct sun, while plants such as snake plants, ZZ plants and pothos tolerate lower light. Signs of too little light are leaning, long gaps between leaves and small new leaves. If you tell me the plant's name, I can give its usual light needs.",
+    "source": "curated",
+    "related": ["kg_list_low_light", "light_sunburn", "light_artificial"]
+  },
+  {
+    "id": "light_artificial",
+    "topic": "light_environment",
+    "question": "Can plants grow under artificial lights?",
+    "alternatives": [
+      "Do grow lights work for houseplants?",
+      "Can I use LED lights for my plants?",
+      "How long should a grow light be on?"
+    ],
+    "keywords": ["grow light", "artificial light", "led light", "lamp", "indoor lighting"],
+    "answer": "Yes. Full-spectrum LED grow lights work well for houseplants, especially in rooms with little daylight. Keep the light about 15-60 cm above the plants (follow the manufacturer's guide) and run it for roughly 10-14 hours a day, using a timer so plants also get a dark period. Ordinary room bulbs help a little but are usually not bright enough on their own.",
+    "source": "curated",
+    "related": ["light_indoor_needs", "kg_list_low_light"]
+  },
+  {
+    "id": "light_wilting_moist_soil",
+    "topic": "light_environment",
+    "question": "Why is my plant wilting even though the soil is moist?",
+    "alternatives": [
+      "My plant is droopy but the soil is wet",
+      "Plant wilting despite watering",
+      "Why does my plant wilt when the soil is still damp?"
+    ],
+    "keywords": ["wilting moist soil", "wet but wilting", "droopy wet soil", "root damage"],
+    "answer": "Wilting in moist soil often means the roots are damaged and cannot take up water, most commonly from root rot caused by overwatering or poor drainage. Heat stress, a recent move, or transplant shock can cause it too. Do not add more water: check the roots, let the soil dry out, and keep the plant out of hot direct sun while it recovers.",
+    "source": "curated",
+    "related": ["water_root_rot", "leaf_drooping"]
+  },
+  {
+    "id": "light_humidity",
+    "topic": "light_environment",
+    "question": "How does humidity affect houseplants?",
+    "alternatives": [
+      "How can I increase humidity for my plants?",
+      "Do plants need humid air?",
+      "Is dry air bad for plants?",
+      "Should I mist my plants?"
+    ],
+    "keywords": ["humidity", "dry air", "misting", "pebble tray", "humidifier"],
+    "answer": "Many tropical houseplants such as ferns, calatheas and prayer plants prefer 50-70% humidity, while succulents and cacti are happy in dry air. Low humidity shows up as brown crispy tips and edges. To raise humidity, group plants together, use a pebble tray with water below the pot base, or run a humidifier. Misting only raises humidity for a few minutes, so it helps less than people expect.",
+    "source": "curated",
+    "related": ["leaf_brown_tips"]
+  },
+  {
+    "id": "light_sunburn",
+    "topic": "light_environment",
+    "question": "Can direct sunlight burn plant leaves?",
+    "alternatives": [
+      "Why do my leaves have white or brown patches after sun?",
+      "Is too much sun bad for my plant?",
+      "My plant got sunburned",
+      "Can leaves get scorched by the sun?"
+    ],
+    "keywords": ["sunburn", "scorch", "leaf burn", "too much sun", "direct sun"],
+    "answer": "Yes. Leaves that are not used to strong direct sun can scorch, showing bleached, white, or crispy brown patches on the side facing the window. Move the plant back a little or filter the light with a sheer curtain, and introduce sun-loving plants to brighter light gradually over a week or two. Burned patches will not recover, but new growth will be healthy.",
+    "source": "curated",
+    "related": ["light_indoor_needs", "leaf_spots"]
+  },
+  {
+    "id": "soil_best_mix",
+    "topic": "soil_pots",
+    "question": "Which soil is best for indoor plants?",
+    "alternatives": [
+      "What potting mix should I use for houseplants?",
+      "Can I use garden soil for indoor plants?",
+      "What kind of soil do potted plants need?"
+    ],
+    "keywords": ["potting mix", "potting soil", "best soil", "garden soil", "compost"],
+    "answer": "Use a good-quality indoor potting mix rather than garden soil, which compacts in pots and can bring in pests. A general mix suits most leafy plants; aroids such as monstera and philodendron like extra chunky material (orchid bark, perlite), while cacti and succulents need a gritty, fast-draining cactus mix. The goal is soil that holds some moisture but lets excess water and air move through.",
+    "source": "curated",
+    "related": ["soil_well_draining", "soil_drainage_holes"]
+  },
+  {
+    "id": "soil_drainage_holes",
+    "topic": "soil_pots",
+    "question": "Why do pots need drainage holes?",
+    "alternatives": [
+      "Can I use a pot without a drainage hole?",
+      "Is a drainage hole necessary?",
+      "Do I need holes in my plant pot?"
+    ],
+    "keywords": ["drainage holes", "pot without holes", "drainage", "decorative pot", "cachepot"],
+    "answer": "Drainage holes let extra water escape, so roots are not left sitting in water and starved of oxygen, which is the main cause of root rot. If you love a pot without holes, use it as a decorative outer pot: keep the plant in a plastic nursery pot with holes inside it, and empty any water that collects at the bottom after watering. Adding gravel at the bottom of a pot does not replace a drainage hole.",
+    "source": "curated",
+    "related": ["water_root_rot", "soil_pot_size"]
+  },
+  {
+    "id": "soil_pot_size",
+    "topic": "soil_pots",
+    "question": "How do I choose the right pot size?",
+    "alternatives": [
+      "How big should my new pot be?",
+      "Is a bigger pot better for my plant?",
+      "What size pot should I repot into?"
+    ],
+    "keywords": ["pot size", "bigger pot", "container size", "new pot"],
+    "answer": "When repotting, choose a pot only 2-5 cm wider than the current one. A much bigger pot holds a lot of extra soil that stays wet for a long time, which raises the risk of root rot. Make sure it has drainage holes, and pick terracotta if you tend to overwater, because it dries out faster than plastic or glazed pots.",
+    "source": "curated",
+    "related": ["maint_repot_when", "soil_drainage_holes"]
+  },
+  {
+    "id": "soil_replace",
+    "topic": "soil_pots",
+    "question": "How often should I replace potting soil?",
+    "alternatives": [
+      "When should I change the soil in my pot?",
+      "Does potting soil go bad?",
+      "Should I refresh old potting soil?"
+    ],
+    "keywords": ["replace soil", "change soil", "refresh soil", "old soil", "fresh potting mix"],
+    "answer": "Refresh the potting mix every one to two years for most houseplants, usually when you repot in spring. Over time soil breaks down, compacts, drains poorly and collects salts from fertilizer. If you are not changing the pot, you can gently remove some old soil from the top and sides and replace it with fresh mix.",
+    "source": "curated",
+    "related": ["maint_repot_when", "soil_best_mix"]
+  },
+  {
+    "id": "soil_well_draining",
+    "topic": "soil_pots",
+    "question": "What is a well-draining potting mix?",
+    "alternatives": [
+      "How do I make soil drain better?",
+      "What does well draining soil mean?",
+      "What can I add to improve soil drainage?"
+    ],
+    "keywords": ["well draining", "perlite", "bark", "pumice", "improve drainage"],
+    "answer": "A well-draining mix lets water flow through quickly instead of staying soggy, so roots get both water and air. You can make ordinary potting mix drain better by mixing in about one part perlite, pumice or orchid bark to two or three parts potting mix. Cacti and succulents need an even grittier mix with more pumice or coarse sand.",
+    "source": "curated",
+    "related": ["soil_best_mix", "water_root_rot"]
+  },
+  {
+    "id": "fert_when",
+    "topic": "fertilizer",
+    "question": "When should I fertilize my plants?",
+    "alternatives": [
+      "How often should I feed my houseplants?",
+      "What fertilizer should I use for indoor plants?",
+      "Do indoor plants need fertilizer?"
+    ],
+    "keywords": ["fertilize", "fertilizer", "feeding", "plant food", "nutrients", "growing season"],
+    "answer": "Feed houseplants during the growing season (spring and summer) when they are putting out new leaves, typically every 2-6 weeks with a balanced liquid fertilizer diluted to half the label strength. Always water the soil first so fertilizer does not burn dry roots. Newly repotted plants usually do not need feeding for a couple of months because fresh potting mix contains nutrients.",
+    "source": "curated",
+    "related": ["fert_too_much", "fert_winter"]
+  },
+  {
+    "id": "fert_too_much",
+    "topic": "fertilizer",
+    "question": "Can too much fertilizer harm plants?",
+    "alternatives": [
+      "I think I gave my plant too much fertilizer",
+      "What does fertilizer burn look like?",
+      "What are the signs of overfertilizing?",
+      "White crust on top of the soil"
+    ],
+    "keywords": ["fertilizer burn", "overfertilizing", "too much fertilizer", "salt build up", "white crust"],
+    "answer": "Yes. Too much fertilizer can burn roots, causing brown leaf tips and edges, sudden wilting, or a white crust on the soil surface. Flush the pot by slowly running plenty of clean water through it and letting it drain fully, remove any crust from the top of the soil, and skip feeding for a month or two. Next time, use a weaker dilution.",
+    "source": "curated",
+    "related": ["fert_when", "leaf_brown_tips"]
+  },
+  {
+    "id": "fert_deficiency",
+    "topic": "fertilizer",
+    "question": "What are common signs of nutrient deficiency?",
+    "alternatives": [
+      "Is my plant lacking nutrients?",
+      "Does my plant need fertilizer?",
+      "Signs of nitrogen deficiency in plants"
+    ],
+    "keywords": ["nutrient deficiency", "nitrogen", "lack of nutrients", "hungry plant", "slow growth"],
+    "answer": "Nutrient shortages often show as pale or yellowing older leaves (nitrogen), yellowing between the veins of new leaves (iron or magnesium), small new leaves, and very slow growth. These symptoms overlap with watering and light problems, so check those first. If the plant has been in the same soil for over a year without feeding, a diluted balanced fertilizer in the growing season usually helps.",
+    "source": "curated",
+    "related": ["fert_when", "leaf_yellow", "leaf_pale"]
+  },
+  {
+    "id": "fert_winter",
+    "topic": "fertilizer",
+    "question": "Should I fertilize plants during winter?",
+    "alternatives": [
+      "Do plants need fertilizer when they are dormant?",
+      "Should I stop feeding plants in winter?",
+      "Is it okay to fertilize in cold months?"
+    ],
+    "keywords": ["winter", "dormancy", "dormant", "cold season", "rest period"],
+    "answer": "Usually no. Most houseplants grow very slowly in winter because of shorter days, so they cannot use much fertilizer and the extra salts build up in the soil. Pause feeding from late autumn to early spring, unless the plant is clearly still growing strongly under a grow light, in which case a very diluted feed once a month is fine.",
+    "source": "curated",
+    "related": ["fert_when", "water_frequency"]
+  },
+  {
+    "id": "plant_succulents",
+    "topic": "plant_profiles",
+    "question": "How do I care for succulents?",
+    "alternatives": [
+      "How often should I water succulents?",
+      "Why is my succulent dying?",
+      "Succulent care tips for beginners",
+      "How do I keep cacti healthy indoors?"
+    ],
+    "keywords": ["succulent", "succulents", "cactus", "cacti", "echeveria", "desert plants"],
+    "answer": "Succulents and cacti need lots of light (a sunny window or a grow light), a gritty fast-draining cactus mix, and a pot with drainage holes. Water deeply only when the soil is completely dry, which may be every 2-3 weeks in summer and much less in winter. The most common way to kill them is overwatering; soft, see-through or mushy leaves are a warning sign. Stretched, leaning growth means they need more light.",
+    "source": "curated",
+    "related": ["soil_well_draining", "water_overwatering_signs"]
+  },
+  {
+    "id": "rec_beginner_plants",
+    "topic": "plant_recommendations",
+    "question": "What are beginner-friendly indoor plants?",
+    "alternatives": [
+      "What plants grow well indoors?",
+      "Which plants are easy to care for?",
+      "Best houseplants for beginners",
+      "Hard to kill indoor plants"
+    ],
+    "keywords": ["beginner", "easy care", "low maintenance", "hard to kill", "first plant", "grow well indoors"],
+    "answer": "Good beginner plants are forgiving about watering and light: snake plant, ZZ plant, golden pothos (money plant), spider plant, heartleaf philodendron, Chinese evergreen and rubber tree. Start with one or two, learn their rhythm, and remember that most beginner losses come from too much water, not too little. If you have pets, note that snake plant, ZZ plant and pothos are toxic to cats and dogs, while spider plants are pet-safe.",
+    "source": "curated",
+    "related": ["kg_list_low_light", "gen_basic_rules"]
+  },
+  {
+    "id": "gen_flowering",
+    "topic": "general_care",
+    "question": "How do I encourage my plant to flower?",
+    "alternatives": [
+      "Why is my flowering plant not blooming?",
+      "How can I make my plant bloom again?",
+      "My plant has no flowers"
+    ],
+    "keywords": ["flowering", "blooming", "bloom", "flowers", "no flowers", "buds"],
+    "answer": "Light is the main trigger for flowering: most flowering houseplants need bright light, often with some direct sun. Feed with a fertilizer that is not too high in nitrogen during the growing season, avoid moving the plant once buds appear, and remove faded flowers. Some plants, such as Christmas cactus and orchids, need a cooler or darker rest period before they bloom again.",
+    "source": "curated",
+    "related": ["light_indoor_needs", "fert_when"]
+  },
+  {
+    "id": "pest_general_treatment",
+    "topic": "pests_maintenance",
+    "question": "How can I get rid of common plant pests?",
+    "alternatives": [
+      "How do I treat bugs on my houseplants?",
+      "What kills insects on indoor plants?",
+      "My plant has pests, what should I do?",
+      "Natural pest control for houseplants"
+    ],
+    "keywords": ["pests", "bugs", "insects", "pest control", "insecticidal soap", "neem oil"],
+    "answer": "First isolate the plant so pests do not spread, and identify what you are dealing with (aphids, spider mites, mealybugs, scale or fungus gnats need slightly different treatment). Start gently: wipe or rinse the leaves, including the undersides, then use insecticidal soap or horticultural oil such as neem, repeating every 5-7 days for a few weeks to catch new hatchlings. Read product labels carefully, and ask a local nursery for help with heavy or persistent infestations.",
+    "source": "curated",
+    "related": ["pest_aphids", "pest_spider_mites", "pest_prevention"]
+  },
+  {
+    "id": "pest_aphids",
+    "topic": "pests_maintenance",
+    "question": "How do I get rid of aphids?",
+    "alternatives": [
+      "Small green bugs on new leaves",
+      "Tiny insects clustered on stems",
+      "Sticky residue on leaves and bugs"
+    ],
+    "keywords": ["aphids", "greenfly", "green bugs", "sticky leaves", "honeydew"],
+    "answer": "Aphids are small soft-bodied insects (green, black or white) that cluster on new growth and leave sticky honeydew. Rinse them off with a strong spray of water or wipe them away, then treat with insecticidal soap or neem oil every 5-7 days until they are gone. Isolate the plant and check its neighbours, since aphids multiply quickly.",
+    "source": "curated",
+    "related": ["pest_general_treatment", "pest_prevention"]
+  },
+  {
+    "id": "pest_spider_mites",
+    "topic": "pests_maintenance",
+    "question": "How do I identify and treat spider mites?",
+    "alternatives": [
+      "Fine webbing on my plant",
+      "Tiny dots and speckled leaves",
+      "What are spider mites?",
+      "Webs under the leaves"
+    ],
+    "keywords": ["spider mites", "webbing", "webs", "speckled leaves", "stippling"],
+    "answer": "Spider mites are tiny pests that cause fine pale speckling on leaves and, in heavier infestations, delicate webbing under leaves and between stems. They love warm, dry air. Isolate the plant, rinse the leaves thoroughly (especially undersides), and treat with insecticidal soap or horticultural oil every 5-7 days for several weeks. Raising humidity helps prevent them coming back.",
+    "source": "curated",
+    "related": ["pest_general_treatment", "light_humidity", "leaf_curling"]
+  },
+  {
+    "id": "pest_fungus_gnats",
+    "topic": "pests_maintenance",
+    "question": "How do I control fungus gnats?",
+    "alternatives": [
+      "There are tiny flies around the soil",
+      "Small black flies in my plant pot",
+      "How do I get rid of gnats in houseplants?"
+    ],
+    "keywords": ["fungus gnats", "gnats", "tiny flies", "flies in soil", "small flies"],
+    "answer": "Fungus gnats are small black flies whose larvae live in constantly moist soil. They are mostly a nuisance, but the larvae can harm seedlings and weak roots. Let the top few centimetres of soil dry out between waterings, use yellow sticky traps to catch adults, and consider watering from below. For heavy infestations, a biological control such as Bti (mosquito bits) added to the water is effective and gentle.",
+    "source": "curated",
+    "related": ["water_overwatering_signs", "pest_prevention"]
+  },
+  {
+    "id": "pest_mealybugs",
+    "topic": "pests_maintenance",
+    "question": "How do I get rid of mealybugs?",
+    "alternatives": [
+      "White fluffy spots on my plant",
+      "Cotton-like bugs on stems",
+      "What are the white cottony insects on my plant?"
+    ],
+    "keywords": ["mealybugs", "white fluffy", "cottony", "white bugs", "scale insects"],
+    "answer": "Mealybugs look like small white cotton tufts in leaf joints and under leaves. Isolate the plant, dab visible bugs with a cotton bud dipped in rubbing alcohol, then spray with insecticidal soap or neem oil, repeating weekly for several weeks. Check the roots and the rim of the pot too, because they hide there.",
+    "source": "curated",
+    "related": ["pest_general_treatment", "pest_prevention"]
+  },
+  {
+    "id": "pest_prevention",
+    "topic": "pests_maintenance",
+    "question": "How do I prevent pests on indoor plants?",
+    "alternatives": [
+      "How can I stop bugs from attacking my plants?",
+      "How to keep houseplants pest free?",
+      "Ways to avoid plant pests"
+    ],
+    "keywords": ["prevent pests", "pest free", "quarantine", "inspect leaves", "healthy plants"],
+    "answer": "Prevention is mostly regular checking: look under leaves and along stems each time you water. Quarantine new plants for two to three weeks before placing them near others, avoid overwatering (which attracts fungus gnats), keep leaves dust-free, and give plants enough light so they stay strong. Catching pests early makes them far easier to deal with.",
+    "source": "curated",
+    "related": ["pest_general_treatment", "gen_new_plant"]
+  },
+  {
+    "id": "maint_repot_when",
+    "topic": "pests_maintenance",
+    "question": "When should I repot my plant?",
+    "alternatives": [
+      "How do I know if my plant needs a bigger pot?",
+      "The roots are coming out of the pot",
+      "What is the best time to repot houseplants?",
+      "How to repot a plant?"
+    ],
+    "keywords": ["repot", "repotting", "bigger pot", "roots out of drainage hole", "transplant"],
+    "answer": "Repot when roots grow out of the drainage holes or circle the inside of the pot, when water runs straight through without soaking in, or when growth has stalled after a year or two in the same pot. Spring and early summer are the best times. Move up only one pot size (2-5 cm wider), use fresh potting mix, and water lightly afterwards. Expect a little droop for a few days while the plant settles.",
+    "source": "curated",
+    "related": ["maint_root_bound", "soil_pot_size", "soil_replace"]
+  },
+  {
+    "id": "maint_root_bound",
+    "topic": "pests_maintenance",
+    "question": "How do I check if my plant is root-bound?",
+    "alternatives": [
+      "What does root bound mean?",
+      "Roots circling the pot",
+      "Is my plant pot bound?"
+    ],
+    "keywords": ["root bound", "rootbound", "pot bound", "circling roots", "crowded roots"],
+    "answer": "Gently slide the plant out of its pot. If you see a dense mat of roots circling the outside of the soil with little soil visible, it is root-bound. Other clues are roots poking out of the drainage holes, soil drying out within a day or two, and water running straight through. Loosen the outer roots with your fingers and repot into a pot one size larger.",
+    "source": "curated",
+    "related": ["maint_repot_when", "soil_pot_size"]
+  },
+  {
+    "id": "maint_not_growing",
+    "topic": "pests_maintenance",
+    "question": "Why is my plant not growing?",
+    "alternatives": [
+      "Why has my plant stopped growing?",
+      "My plant has no new leaves",
+      "Why is my plant growing so slowly?",
+      "Plant not producing new growth"
+    ],
+    "keywords": ["not growing", "stopped growing", "slow growth", "no new leaves", "stunted"],
+    "answer": "The usual reasons are not enough light, winter dormancy, a root-bound pot, or exhausted soil. Move the plant somewhere brighter, check whether roots are crowding the pot, and feed with a diluted fertilizer during spring and summer. Many plants simply rest in winter, so slow growth from late autumn to early spring is normal.",
+    "source": "curated",
+    "related": ["light_indoor_needs", "maint_root_bound", "fert_when"]
+  },
+  {
+    "id": "gen_dying_plant",
+    "topic": "general_care",
+    "question": "How do I save a dying plant?",
+    "alternatives": [
+      "My plant is dying, what should I do?",
+      "How can I revive my plant?",
+      "My plant looks unhealthy and sick",
+      "Can I bring my plant back to life?"
+    ],
+    "keywords": ["dying plant", "revive", "save my plant", "unhealthy", "sick plant", "rescue"],
+    "answer": "Work through the usual suspects in order:\n- Soil: is it soggy (stop watering, check roots for rot) or bone dry (soak it)?\n- Roots: firm and pale is good; brown, mushy and smelly means root rot.\n- Light: too dark causes slow decline; harsh sun causes scorched patches.\n- Pests: look under leaves and along stems.\n- Recent changes: a move, repotting or cold draughts can cause shock.\nTrim dead leaves, fix the main problem, and give it a few weeks. If the roots are mostly gone, take healthy cuttings to propagate. For a rapidly spreading problem, a local nursery can help diagnose it.",
+    "source": "curated",
+    "related": ["water_root_rot", "water_check_need", "pest_general_treatment"]
+  },
+  {
+    "id": "gen_new_plant",
+    "topic": "general_care",
+    "question": "How do I care for a new plant?",
+    "alternatives": [
+      "I just bought a new houseplant, what should I do?",
+      "How to look after a plant I just brought home?",
+      "Should I repot a new plant right away?"
+    ],
+    "keywords": ["new plant", "just bought", "brought home", "acclimate", "first week"],
+    "answer": "Check the new plant for pests and keep it away from your other plants for two to three weeks. Find out its name so you can match its light needs, and place it in a suitable spot. Water only when the soil needs it, and wait a few weeks before repotting or fertilizing, because moving house is already stressful. Losing a leaf or two in the first weeks is normal while it adjusts.",
+    "source": "curated",
+    "related": ["pest_prevention", "light_indoor_needs", "water_check_need"]
+  },
+  {
+    "id": "gen_clean_leaves",
+    "topic": "general_care",
+    "question": "How do I clean dusty leaves?",
+    "alternatives": [
+      "Should I wipe my plant's leaves?",
+      "How do I remove dust from houseplants?",
+      "Can I use leaf shine on plants?"
+    ],
+    "keywords": ["dusty leaves", "clean leaves", "wipe leaves", "dust", "leaf shine"],
+    "answer": "Dust blocks light, so wipe large leaves every few weeks with a soft, damp cloth while supporting the leaf from underneath. Smaller plants can be rinsed gently under a lukewarm shower; let them drain afterwards. Avoid leaf-shine products and oils, which can clog leaf pores, and use a soft brush for fuzzy-leaved plants such as African violets.",
+    "source": "curated",
+    "related": ["pest_prevention"]
+  },
+  {
+    "id": "gen_propagation",
+    "topic": "general_care",
+    "question": "How do I propagate houseplants?",
+    "alternatives": [
+      "How do I grow a new plant from a cutting?",
+      "Can I root cuttings in water?",
+      "How to take a stem cutting?",
+      "How to multiply my plants?"
+    ],
+    "keywords": ["propagate", "propagation", "cuttings", "stem cutting", "root in water", "node"],
+    "answer": "Many vining plants such as pothos and philodendron root easily from stem cuttings: cut just below a node (the bump where a leaf joins the stem), remove the lowest leaf, and place the node in water or moist potting mix in bright indirect light. Change the water weekly and pot it up once roots are a few centimetres long. Succulents can be grown from healthy leaves left to dry for a few days, and spider plants from their baby plantlets.",
+    "source": "curated",
+    "related": ["gen_new_plant", "water_root_rot"]
+  },
+  {
+    "id": "gen_travel",
+    "topic": "general_care",
+    "question": "How do I care for my plants while travelling?",
+    "alternatives": [
+      "How do I water plants when I go on holiday?",
+      "Will my plants survive if I am away for two weeks?",
+      "Plant care while on vacation"
+    ],
+    "keywords": ["travelling", "vacation", "holiday", "away", "self watering"],
+    "answer": "Water plants thoroughly just before you leave, and move them a little further from hot, sunny windows so they dry out more slowly. Grouping plants together raises humidity. For trips longer than a week or two, use self-watering spikes, a wick from a water container, or ask someone to water. Drought-tolerant plants such as snake plants and succulents usually cope with a few weeks on their own.",
+    "source": "curated",
+    "related": ["water_frequency", "light_humidity"]
+  },
+  {
+    "id": "gen_basic_rules",
+    "topic": "general_care",
+    "question": "What are the basic rules for healthy houseplants?",
+    "alternatives": [
+      "Give me general plant care tips",
+      "How do I keep my indoor plants healthy?",
+      "What are the most important plant care tips?",
+      "How to take care of plants?"
+    ],
+    "keywords": ["plant care tips", "healthy plants", "basic rules", "general care", "keep plants alive"],
+    "answer": "A few rules cover most houseplant success:\n- Match the plant to the light you have.\n- Water when the soil needs it, not on a fixed schedule.\n- Use pots with drainage holes and a suitable potting mix.\n- Feed lightly in spring and summer, and rest in winter.\n- Check leaves regularly for pests and dust.\n- Avoid sudden moves, draughts and heaters.\nIf you tell me your plant's name, I can share its specific light, watering and pet-safety needs.",
+    "source": "curated",
+    "related": ["water_frequency", "light_indoor_needs", "rec_beginner_plants"]
+  },
+  {
+    "id": "pet_general",
+    "topic": "pet_safety",
+    "question": "Which houseplants are toxic to cats and dogs?",
+    "alternatives": [
+      "Are houseplants poisonous to pets?",
+      "What should I do if my cat ate a plant?",
+      "Is it safe to keep plants around pets?"
+    ],
+    "keywords": ["toxic to pets", "poisonous plants", "cats", "dogs", "pet ate plant", "aspca"],
+    "answer": "Several popular houseplants are toxic to cats and dogs, including pothos, philodendron, monstera, peace lily, snake plant, ZZ plant, dumb cane, aloe vera and jade plant. Pet-safe choices include spider plant, Boston fern, parlor palm, prayer plant, calathea relatives, money tree and Chinese money plant (pilea). If a pet chews a plant and shows drooling, vomiting or other symptoms, contact your vet or an animal poison control service straight away. Ask me about a specific plant by name for its ASPCA-based toxicity status.",
+    "source": "curated",
+    "related": ["rec_beginner_plants"]
+  }
+]
